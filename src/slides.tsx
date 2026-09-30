@@ -27,7 +27,7 @@ export function S1Cover() {
       <div className="relative z-10 mx-auto grid w-full max-w-[1280px] grid-cols-1 items-center gap-8 px-6 md:px-12 lg:grid-cols-[1.15fr_0.85fr]">
         <div>
           <motion.div variants={fadeUp} initial="hidden" animate="show" custom={0} className="flex flex-wrap items-center gap-2">
-            <span className="rounded-full border border-[#FFD200]/40 bg-[#FFD200]/10 px-3 py-1 font-mono2 text-[10px] tracking-[0.2em] text-[#FFD200]">iQOO HACKATHON · FINALIST BUILD</span>
+            <span className="rounded-full border border-[#FFD200]/40 bg-[#FFD200]/10 px-3 py-1 font-mono2 text-[10px] tracking-[0.2em] text-[#FFD200]">SIH HACKATHON · FINALIST BUILD</span>
             <span className="rounded-full border border-white/15 px-3 py-1 font-mono2 text-[10px] tracking-[0.2em] text-white/60">REAL-TIME SAFETY INTELLIGENCE</span>
           </motion.div>
           <motion.h1 variants={fadeUp} initial="hidden" animate="show" custom={1}
@@ -38,7 +38,7 @@ export function S1Cover() {
             See the threat. <span className="text-[#FFD200]">Predict the risk.</span><br />Act before it escalates.
           </motion.p>
           <motion.p variants={fadeUp} initial="hidden" animate="show" custom={3} className="mt-3 max-w-lg text-[13px] md:text-[15px] text-white/50">
-            Real-Time Public Safety Intelligence Using iQOO Devices — turning every capable smartphone into a sensing, processing &amp; relay node.
+            Real-Time Public Safety Intelligence Using Jan Devices — turning every capable smartphone into a sensing, processing &amp; relay node.
           </motion.p>
           <motion.div variants={fadeUp} initial="hidden" animate="show" custom={4} className="mt-7 flex flex-wrap items-center gap-3">
             <div className="flex items-center gap-2 rounded-full bg-[#FFD200] px-5 py-2.5 font-display text-[13px] font-bold tracking-wide text-black">
@@ -146,7 +146,7 @@ export function S3Idea() {
       <div className="relative z-10 mx-auto w-full max-w-[1280px] px-6 md:px-12">
         <div className="text-center">
           <div className="flex justify-center"><Kicker index="03 / 14" label="Our Idea" /></div>
-          <H2>Turn every capable iQOO device<br />into a <span className="text-[#FFD200]">sensing, processing</span> &amp; <span className="text-[#FFD200]">communication</span> node.</H2>
+          <H2>Turn every capable Jan device<br />into a <span className="text-[#FFD200]">sensing, processing</span> &amp; <span className="text-[#FFD200]">communication</span> node.</H2>
           <p className="mx-auto mt-3 max-w-2xl text-[13.5px] text-white/55">JANRAKSHAK is not an app. It&apos;s a <span className="text-white">distributed safety ecosystem</span> — phones sense, score, relay and interface with response infrastructure.</p>
         </div>
 
@@ -825,7 +825,7 @@ export function S14Closing() {
 
       <div className="relative z-10 mx-auto max-w-[1000px] px-6">
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.2 }} className="flex items-center justify-center gap-2 font-mono2 text-[11px] tracking-[0.3em] text-white/50">
-          <span className="h-px w-12 bg-white/20" /> JANRAKSHAK · iQOO HACKATHON <span className="h-px w-12 bg-white/20" />
+          <span className="h-px w-12 bg-white/20" /> JANRAKSHAK · SIH HACKATHON <span className="h-px w-12 bg-white/20" />
         </motion.div>
         <h2 className="font-display mt-5 text-[clamp(30px,5.2vw,72px)] font-bold leading-[1.02] tracking-tight">
           {words.map((w, i) => (
@@ -837,7 +837,7 @@ export function S14Closing() {
           <ShieldMark size={36} />
         </motion.div>
         <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1.35 }} className="font-display mx-auto mt-5 max-w-2xl text-[clamp(15px,2vw,22px)] font-medium text-white/85">
-          Turning iQOO devices into a <span className="text-[#FFD200]">connected frontline</span> for public safety.
+          Turning Jan devices into a <span className="text-[#FFD200]">connected frontline</span> for public safety.
         </motion.p>
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1.5 }} className="mt-7 flex flex-wrap items-center justify-center gap-3">
           <div className="flex items-center gap-2 rounded-full bg-[#FFD200] px-6 py-3 font-display text-[13px] font-bold tracking-wide text-black">THANK YOU · QUESTIONS <ArrowUpRight size={15} /></div>
